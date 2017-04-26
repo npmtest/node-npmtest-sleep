@@ -1,6 +1,6 @@
 # npmtest-sleep
 
-#### test coverage for  [sleep (v5.1.1)](http://github.com/erikdubbelboer/node-sleep)  [![npm package](https://img.shields.io/npm/v/npmtest-sleep.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sleep) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sleep.svg)](https://travis-ci.org/npmtest/node-npmtest-sleep)
+#### basic test coverage for  [sleep (v5.1.1)](http://github.com/erikdubbelboer/node-sleep)  [![npm package](https://img.shields.io/npm/v/npmtest-sleep.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sleep) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sleep.svg)](https://travis-ci.org/npmtest/node-npmtest-sleep)
 
 #### Add sleep() and usleep() to nodejs
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sleep/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sleep/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sleep/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sleep/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sleep/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sleep/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sleep/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sleep/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sleep/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sleep/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sleep/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sleep/build/coverage.html/index.html)
 
@@ -80,7 +80,8 @@
         "install": "node-gyp rebuild",
         "test": "mocha"
     },
-    "version": "5.1.1"
+    "version": "5.1.1",
+    "bin": {}
 }
 ```
 
